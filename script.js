@@ -9,5 +9,8 @@ function message() {
     }
 
     alert("Message sent successfully!");
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
     return true;
 }
